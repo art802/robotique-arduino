@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de certification</title>
+</head>
+<body>
+    <h1>Mon formulaire est-il un bon formulaire?</h1>
+
+    <p id="para">
+        <form id="survey-form">
+        <label for="name">Entrez votre nom</label>
+        <input type="text" id="name" placeholder="Ex: Theo Arthur Suffo">
+            <br><br>
+        
+        <label for="email">Entrez votre email</label>
+        <input type="email" id="name" placeholder="Ex:moi@gmail.com">
+        <br><br>
+
+        <label for="age" >Entrez votre age</label>
+        <input type="number" name="" id="age" min="15" max="70">
+
+        <br><br>
+        <label for="number-label">Donnez vos appreciations sur moi</label>
+        <select name="" id="number-label">
+            <option value="Excellent">Excellent</option>
+            <option value="Tres bien">Tres bien</option>
+            <option value="Bien">Bien</option>
+            <option value="Passable">Passable</option>
+            <option value="Mediocre">Mediocre</option>
+            <option value="Nul">Nul</option>
+        </select>
+
+        <br><br>
+        <label for="Qualite">Cev formulaire est il bien?</label>
+        <input type="radio" value="Bien" name="Qualite" id="bien"><label for="bien">Bien</label>
+        <input type="radio" value="Mauvais"name="Qualite"  id="Mauvais"><label for="Mauvais">Mauvais</label>
+        <br><br>
+        <Label for="preference">Qu'est ce qui vous plait le plus?</Label>
+        <input type="checkbox" value="html" id="html"><label for="html">Le CSS</label>
+        <input type="checkbox" value="CSS" id="css"><label for="css">Le HTML</label>
+
+        <br><br>
+        <label for="Idees">Avez vous des idees a me proposer ?</label>
+        <input type="textarea" name="" id="Idees">
+
+        <br><br>
+        <input type="submit"  value="envoyer" id="Soumettre">
+
+
+        </form>
+    </p>
+</body>
+</html>
